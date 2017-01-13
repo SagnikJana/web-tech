@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+	#diary{
+		margin: auto;
+		width: 30%;
+		height: 200px;
+		border: 3px solid #73AD21;
+		background-color: yellow;
+	}
+	
+	#txtarea{
+		height: 100%;
+		width: 100%;	
+	}
+
+	#rightnav{
+		float: right;
+		margin-right: -1%;
+		padding-right: -10px;
+		line-height: 200px;
+    		height: 200px;
+	}
+</style>
+
+<script>
+		
+</script>
+</head>
+<body>
+	<tr>
+		<td>
+			<h1 style="margin:auto; width:20%">Just Write<h1>
+			<div id="diary">
+				
+				<textarea id="txtarea">Type here</textarea>
+			</div>
+		</td>
+	</tr>
+	<div id="rightnav" type="button" onmouseover="document.getElementById(this).style.right-margin = 10%">
+		
+		 <img src="https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiV-4u19b7RAhXFr48KHSE7B0UQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Ffox-logo%2F&bvm=bv.144224172,d.c2I&psig=AFQjCNFJzHkgN5WIplN3kN-f2Bnjx33JLA&ust=1484389893837119"></img>
+	</div>
+
+</body>
+</html>
