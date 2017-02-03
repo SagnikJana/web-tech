@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is awesome</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+#txtarea{
+height: 400px;
+width: 100%;
+background-color:rgba(0,0,0,0) !important;
+color: white;
+border-width: 2px;
+}
+body {
+background-image: url("http://www.blogeradio.com/wp-content/uploads/2015/10/The-Austerity-Diaries.jpg");
+}
+
+.nav-filter {
+	background-color:#444;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #FF6699;
+}
+.nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
+	background-color: #FF6699;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">JUSTWRITE</a>
+		</div>
+
+		<ul class="nav navbar-nav">
+			<li class="active"><a>New</a></li>
+			<li><a>Search</a></li>
+			<li><a>Category</a></li>
+			<li><a>Help</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown"  href="#" > Account <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">New</a></li>
+				<li><a href="#">Old</a></li>
+				<li><a href="#">Awesome</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+<div class="container fluid">
+<div class="row">
+<div class="col-sm-2">
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Old Stories</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>2<sup>nd</sup>Jan 2017</td></tr>
+<tr><td>3<sup>rd</sup>Jan 2017</td></tr>
+<tr><td>4<sup>th</sup>Jan 2017</td></tr>
+</tbody>
+</table>
+</div>
+<div class="col-sm-7">
+<textarea id="txtarea"></textarea>
+</div>
+<div class="col-sm-3">
+<ul class="nav nav-pills nav-stacked pillcolor">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-search"></span> Search </a></li>
+<li><a href="#"><span class="glyphicon glyphicon-tags"></span> Tags </a></li>
+<li><a href="#"><span class="glyphicon glyphicon-book"></span> Topics </a></li>
+</ul>
+</div>
+<div class="col-sm-5">
+</div>
+<div class="col-sm-2">
+<button class="btn btn-success">Save</button>
+</div>
+<div class="col-sm-5">
+</div>
+</div>
+</div>
+</body>
+</html>
